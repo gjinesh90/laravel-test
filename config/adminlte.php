@@ -317,6 +317,20 @@ return [
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
+        ], 
+        [
+            'text'    => 'Organizations',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Listing',
+                    'url'  => 'admin/organizations/',
+                ], 
+                [
+                    'text' => 'Add New',
+                    'url'  => 'admin/organizations/create',
+                ],
+            ],
         ],
         ['header' => 'account_settings'],
         [
